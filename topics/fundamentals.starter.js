@@ -40,7 +40,24 @@ function calculateAge(birthyear) {
 // store the result in a variable
 // print an emoji to the console based on the result (😊, 😞, 😐)
 // kudos to you if you use a switch statement for this
-
+function feeling() {
+    let feeling = prompt("How are you feeling?", "Good");
+    switch (feeling.toLowerCase()) {
+      case "good":
+        console.log("It's good that you're feeling good.");
+        break;
+      case "bad":
+        console.log("Awh hope you feel better soon!");
+        break;
+      case "ok":
+        console.log("ok.");
+        break;
+      default:
+        console.log("I don't have a response for this. (Except this one)");
+        break;
+    }
+  }
+  feeling();
 // 9. create an array `foods` with three of your favorite foods
 // loop through the array and log each food to the console (use a for loop)
 // hint: you can get the length of an array with `array.length`

@@ -30,7 +30,12 @@ function greet(name) {
 // 7. write a function named calculateAge() that calculates your age and logs it to the console
 // use the function to print your age to the console
 // hint: the function should take your birthyear as an argument
-
+function calculateAge(birthyear) {
+    let currentyear = new Date().getFullYear();
+    let age = currentyear - parseInt(birthyear);
+    console.log(age);
+  }
+  calculateAge("2004");
 // 8. use prompt() to ask if you how you are feeling today ("good", "bad", "ok")
 // store the result in a variable
 // print an emoji to the console based on the result (😊, 😞, 😐)

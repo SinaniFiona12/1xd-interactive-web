@@ -16,7 +16,7 @@ let birthyear = parseInt(prompt("Birthyear?", "2004"));
 
 // 4. calculate your age (this will require grabbing the current year somehow)
 // hint: you can get the current year with new Date().getFullYear()
-
+let age = new Date().getFullYear() - birthyear;
 // 5. log your age to the console
 
 // 6. write a function named greet() that wishes you a nice day like `Hi there, [your name]! Have a nice day!`

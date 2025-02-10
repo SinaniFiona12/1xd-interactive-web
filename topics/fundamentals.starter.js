@@ -8,6 +8,7 @@
 // 1. link this script file to your page and open your developer console
 
 // 2. create a variable that keeps track of your name (can be let, const or var)
+let username = prompt("Name?", "Fiona");
 
 // 3. create a variable that asks for your birthyear (use prompt() for that)
 // hint: prompt() returns a string, so you'll need to convert it to a number with parseInt()

@@ -24,7 +24,7 @@ console.log(age);
 // hint: the function should take [your name] as an argument
 // use the function to print the message to the console
 function greet(name) {
-    console.log(`Hello ${name}, have a nice day.`);
+    console.log("Hello ${name}, have a nice day.");
   }
   greet("Fiona");
 // 7. write a function named calculateAge() that calculates your age and logs it to the console
@@ -65,7 +65,14 @@ function feeling() {
 let foods = ["Fries", "McFlurry", "Spaghetti"];
 for (let i = 0; i < foods.length; i++) {
   console.log(foods[i]);
-
+}
 // 10. create an object `person` with properties `name`, `age` and `favoriteFoods`
 // use the array `foods` as the value for the `favoriteFoods` property
 // log the object to the console
+
+const person = {
+    name: username,
+    age: age,
+    favoriteFoods: foods,
+  };
+  console.log(person);  

@@ -11,17 +11,25 @@
 
 // 1 — create an array `meals` with three of your favorite meals and log it to the console
 
+const meals = ["sushi", "spaghetti", "taco's"];
+
 // 2 — create an array `drinks` with three of your favorite drinks and log it to the console
+const drinks = ["icetea", "water", "chocomelk"];
 
 // 3 - create a variable `lastmeal` that stores the last item from the `meals` array
 // hint: use the pop() function - log the result to the console
 
-// 4 - loop over the meals array and print each meal to the console
+console.log(meals.pop());
 
+// 4 - loop over the meals array and print each meal to the console
+//??
 // 5 - add a meal called `cereal` to the `meals` array, this time using the push() function, log the variable to the console
+meals.push("cereal");
+console.log(meals);
 
 // 6 - create a variable `breakfast` and find the position of `cereal` in the `meals` array
 // hint: use the indexOf() function - log the result to the console
+let breakfast 
 
 /* CHALLENGE :: TIPJAR */
 // 7 - create an array `tipjar` that will contain all our tips, add the following tips: 1, 5, 2, 2, 1
